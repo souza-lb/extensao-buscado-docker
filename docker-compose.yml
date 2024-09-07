@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  java-app:
+    build:
+      context: .  # Contexto de build é o diretório atual
+    container_name: buscado_app
+    environment:
+      - DISPLAY=${DISPLAY}  # Passa a variável DISPLAY do host para o container
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Monta o socket X11 do host no container
+    network_mode: host  # usa a rede do host
+    tty: true
