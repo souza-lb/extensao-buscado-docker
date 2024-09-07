@@ -1,0 +1,2 @@
+Gecko driver para uso no contêiner Docker Linux Debian 12.
+Mantenha esta pasta junto ao jar gerado e arquivos docker.
