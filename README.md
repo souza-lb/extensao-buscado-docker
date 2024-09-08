@@ -7,7 +7,7 @@ O que você econtra aqui?
 
 Arquivos Docker para construção do ambiente da aplicação.
 
-![Arquivos Docker](/imagens/arquivos-buscado-docker.png)  
+![Arquivos Docker](/imagens/arquivo-buscado-docker.png)  
 
 
 Este repositório foi criado por: <b>Leonardo Bruno de Souza Silva</b><br>
