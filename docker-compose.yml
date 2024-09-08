@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  java-app:
+  buscado-app:
     build:
       context: .  # Contexto de build é o diretório atual
     container_name: buscado_app
