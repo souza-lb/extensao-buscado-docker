@@ -1,7 +1,8 @@
-<h1>Extensão BuscaDO - Docker - Repositório Complementar</h1>
-Projeto de Extensão da Disciplina Java OO - Leonardo Bruno - 202301011744 - Criação de ambiente de execução
+<h1>Extensão BuscaDO - Docker - Repositório Complementar</h1>  
 
-Repositório Complementar do Projeto BuscaDO
+<b>Projeto de Extensão da Disciplina Java OO - Leonardo Bruno de Souza Silva - 202301011744 - Criação de ambiente de execução com Docker</b>
+
+<b>Repositório Complementar do Projeto BuscaDO</b>
 
 O que você econtra aqui?
 
