@@ -37,15 +37,8 @@ ENV LANG=pt_BR.UTF-8 \
 # Cria a pasta para a aplicação
 RUN mkdir -p /app
 
-# Copia o arquivo "jar" e a pasta "gecko" para dentro do contêiner Docker
-COPY extensao-buscado-1.0.0-jar-with-dependencies.jar /app/
-COPY gecko /app/gecko
-
 # Seta a pasta de trabalho
 WORKDIR /app
-
-# Ajusta a permissão de execução para o geckodriver
-RUN chmod +x /app/gecko/geckodriver
 
 # Comando para rodar o arquivo "jar"
 CMD ["java", "-jar", "extensao-buscado-1.0.0-jar-with-dependencies.jar"]
