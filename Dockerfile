@@ -37,6 +37,9 @@ ENV LANG=pt_BR.UTF-8 \
 # Cria a pasta para a aplicação
 RUN mkdir -p /app
 
+# Copia o jar para dentro do contêiner.
+COPY extensao-buscado-1.0.0-jar-with-dependencies.jar /app/
+
 # Seta a pasta de trabalho
 WORKDIR /app
 
